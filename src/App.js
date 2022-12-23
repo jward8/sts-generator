@@ -1,22 +1,15 @@
 import logo from './logo.svg';
+import sts_icon from './assets/sts_icon.ico';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <img src={sts_icon} className="App-logo" alt="logo" />
+        <p className='loadingText'>
+          Loading Slay the Spire Generator
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
